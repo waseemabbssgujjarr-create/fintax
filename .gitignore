@@ -1,0 +1,18 @@
+data/
+data-demo/
+dist/
+node_modules/
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db

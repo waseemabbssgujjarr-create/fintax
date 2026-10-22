@@ -1,0 +1,14 @@
+{
+  "name": "fintax",
+  "version": "1.0.0",
+  "description": "FinTax: practice ERP for tax consultants in Pakistan. Website, master admin, consultant workspace and client portal.",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server/server.js",
+    "demo": "SEED_DEMO=1 FINTAX_DATA=./data-demo node server/server.js",
+    "test": "node tests/core.test.js",
+    "build:preview": "node build/build-preview.js"
+  }
+}

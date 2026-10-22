@@ -1,0 +1,16 @@
+{
+  "name": "FinTax, Tax Practice ERP",
+  "short_name": "FinTax",
+  "description": "Practice ERP for tax consultants in Pakistan",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F4F7F3",
+  "theme_color": "#0E7A4F",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
